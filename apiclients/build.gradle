@@ -5,7 +5,7 @@ plugins {
 
 repositories {
    maven {             
-          url "https://nexus.delta.com/repository/maven-public/"
+          url 
     }
 }
 

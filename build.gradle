@@ -19,7 +19,10 @@ dependencies {
 	implementation 'org.springframework.boot:spring-boot-starter-web'
 	implementation('org.springframework.boot:spring-boot-starter-data-rest')
 	compile group: 'org.kie', name: 'kie-ci', version: '7.23.0.Final'
-	compile group: 'org.projectlombok', name: 'lombok', version: '1.18.8'
+	//compile group: 'org.projectlombok', name: 'lombok', version: '1.18.8'
+	compileOnly 'org.projectlombok:lombok:1.18.8'
+	annotationProcessor 'org.projectlombok:lombok:1.18.8'
+	
 	compile group: 'com.fasterxml.jackson.dataformat', name: 'jackson-dataformat-yaml', version: '2.7.3'
 	compile group: 'org.apache.httpcomponents', name: 'httpclient', version: '4.5'
 	compile group: 'io.swagger', name: 'swagger-annotations', version: '1.5.0'
@@ -30,6 +33,11 @@ dependencies {
 	compile group: 'org.apache.commons', name: 'commons-lang3', version: '3.0'
 	 compile 'org.springframework.boot:spring-boot-starter-data-jpa'
 	compile 'mysql:mysql-connector-java'
+	// https://mvnrepository.com/artifact/javax.cache/cache-api
+	compile group: 'javax.cache', name: 'cache-api', version: '1.1.1'
+	// https://mvnrepository.com/artifact/org.ehcache/ehcache
+	compile group: 'org.ehcache', name: 'ehcache', version: '3.7.1'
+
     // Use JUnit test framework
     testImplementation 'junit:junit:4.12'
     
