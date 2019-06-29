@@ -4,11 +4,8 @@ plugins {
 }
 
 repositories {
-   maven {             
-          url 
-    }
+	mavenCentral()
 }
-
 
 dependencies {
     
