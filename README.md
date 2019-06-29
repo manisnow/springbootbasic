@@ -1,6 +1,6 @@
 # springbootbasic
 This has spring boot skelatal project.. and has sample of drools and msql jpa and swagger code generator
-# spring-boot-gradle-sample
+
 This repository is a sample of spring boot with gradle
 
 # How to use this springbootbasic
