@@ -1,0 +1,17 @@
+package rules
+
+import com.mt.demo.model.Member
+
+rule "Offer for Diamond"
+	when 
+		  memberObject: Member(type=="diamond")
+	then
+		  memberObject.setDiscount(15);
+	end
+rule "Offer for Gold"
+	 when 
+	 		memberObject: Member(type=="gold")
+	 then
+	 		memberObject.setDiscount(25);
+	 end			    
+	    
