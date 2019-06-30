@@ -16,7 +16,7 @@ download this project with the next commands:
 * go to **build/libs** folder
 * type **java -jar springbootbasic.0.0.1-SNAPSHOT.jar**
 
-Open your favorite navigator and go to http://localhost:8080/.
+Open your favorite navigator and go to http://localhost:8080/swagger-ui.html
 
 It will sow swagger html where you can see and test your resources
 

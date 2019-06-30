@@ -9,8 +9,10 @@ public class HomeController {
 	
 	
 	@RequestMapping("/")
-	public String greeting() {
+	public String index() {
 		return "redirect:/swagger-ui.html";
 	}
+	
+	
 
 }
