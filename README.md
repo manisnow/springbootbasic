@@ -1,5 +1,5 @@
 # springbootbasic
-This has spring boot skelatal project.. and has sample of drools and msql jpa and swagger code generator
+This has spring boot skelatal project.. and has sample of drools and msql jpa ,ehcache and swagger code generator
 
 This repository is a sample of spring boot with gradle
 
@@ -11,6 +11,18 @@ download this project with the next commands:
  
 
 * **update the msql properties in src/main/resourses/application.yml**
+
+spring:
+  jpa:
+    hibernate:
+      ddl-auto: create
+  datasource:
+    url: jdbc:mysql://127.0.0.1:3306/sampledb
+    username: user
+    password: user
+  cache:
+    jcache:
+      config: classpath:ehcache.xml
 
 * type **gradle build**
 * go to **build/libs** folder
